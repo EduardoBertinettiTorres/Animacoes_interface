@@ -36,6 +36,9 @@ export default function HeaderAtividades() {
           <Item>
             <LinkNav to="/atividades">Atividades</LinkNav>
           </Item>
+          <Item>
+            <LinkNav to="/bicicletas">Bicicletas</LinkNav>
+          </Item>
         </Lista>
         <UserInfo>
           <span>Bem-vindo</span>
