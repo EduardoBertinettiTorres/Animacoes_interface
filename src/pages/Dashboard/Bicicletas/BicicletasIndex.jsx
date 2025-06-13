@@ -2,6 +2,7 @@
 import HeaderAtividades from "../../../components/Atividades/HeaderAtividades/HeaderAtividades";
 import Main from "../../../components/Bicicletas/Main/Main";
 import Section from "../../../components/Bicicletas/Section/Section";
+import ParallaxSection from "../../../components/ParallaxSection/ParallaxSection";
 import Footer from "../../../components/Footer/Footer";
 //import axiosClient from "../../../utils/axios_client";  // Usando o axiosClient correto
 
@@ -38,11 +39,11 @@ export default function BicicletasIndex() {
   //   if (error) {
   //     return <p>{error}</p>;
   //   }
-
   return (
     <>
       <HeaderAtividades />
       <Main />
+      <ParallaxSection />
       <Section />
       <Footer />
     </>

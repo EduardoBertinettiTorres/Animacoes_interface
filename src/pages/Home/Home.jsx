@@ -4,6 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import HeaderAtividades from "../../components/Atividades/HeaderAtividades/HeaderAtividades";
 import ImageBanner from "../../components/ImageBanner/ImageBanner";
 import BikeAnimation from "../../components/BikeAnimation/BikeAnimation";
+import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import {
   StyleGeral,
   BannerContainer,
@@ -64,10 +65,11 @@ export default function Home() {
 
   return (
     <>
+      {" "}
       <StyleGeral>
         <HeaderAtividades />
         <BannerContainer>
-          <ImageBanner />
+          <ImageSlider />
         </BannerContainer>
         <Main>
           <Section>
@@ -99,13 +101,13 @@ export default function Home() {
                 <h2>PROGRESSO</h2>
                 <img src="../../public/img/progresso.jpeg" alt="Mapa" />
               </ImagemItem>
-            </ImagensContainer>
+            </ImagensContainer>{" "}
             <TextoSecundario>
               Explore o mundo do ciclismo bem acompanhado com informações
               detalhadas de seu desempenho físico, comparados a metas que você
               mesmo definiu, além disso a aplicação também conta com uma aba,
               onde será possível criar planos de atividades personalizados para
-              alcançar determinados objetivos de acordo com seu perfil.
+              alcançar determinados objetivos de acordo com seu perfil.{" "}
             </TextoSecundario>
           </Section>
         </Main>
